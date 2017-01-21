@@ -9,6 +9,15 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_colecionavel</sprite>
     <sprite>sprites\floor_solid</sprite>
+    <sprite>sprites\spr_musgo_direito</sprite>
+    <sprite>sprites\spr_bloco_direit_baixo</sprite>
+    <sprite>sprites\spr_bloco_esquerd_baixo</sprite>
+    <sprite>sprites\spr_bloco_esquerdo_cima</sprite>
+    <sprite>sprites\spr_bloco_baixo</sprite>
+    <sprite>sprites\spr_bloco_esquerdo</sprite>
+    <sprite>sprites\spr_bloco_direito_cima</sprite>
+    <sprite>sprites\spr_bloco_cima</sprite>
+    <sprite>sprites\spr_estalactite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -29,6 +38,15 @@
     <object>objects\Colecionavel</object>
     <object>objects\TimeController</object>
     <object>objects\Light</object>
+    <object>objects\MusgoDireito</object>
+    <object>objects\MusgoDireitoBaixo</object>
+    <object>objects\MusgoEsquerdoBaixo</object>
+    <object>objects\MusgoEsquerdoCima</object>
+    <object>objects\MusgoBaixo</object>
+    <object>objects\MusgoEsquerdo</object>
+    <object>objects\DireitoCima</object>
+    <object>objects\MusgoCima</object>
+    <object>objects\Estalactite</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
