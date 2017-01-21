@@ -9,8 +9,6 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_colecionavel</sprite>
     <sprite>sprites\floor_solid</sprite>
-    <sprite>sprites\spr_inimigo</sprite>
-    <sprite>sprites\spr_inimigo2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,8 +28,7 @@
     <object>objects\Solid</object>
     <object>objects\Colecionavel</object>
     <object>objects\TimeController</object>
-    <object>objects\InimigoHorizontal</object>
-    <object>objects\InimigoVertical</object>
+    <object>objects\Light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
