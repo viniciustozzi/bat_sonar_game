@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_colecionavel</sprite>
     <sprite>sprites\floor_solid</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -25,6 +26,8 @@
       <object>objects\Player</object>
     </objects>
     <object>objects\Solid</object>
+    <object>objects\Colecionavel</object>
+    <object>objects\TimeController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
