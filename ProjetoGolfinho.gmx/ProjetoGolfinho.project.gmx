@@ -15,6 +15,9 @@
     <scripts name="Player">
       <script>scripts\player_move_state.gml</script>
     </scripts>
+    <scripts name="Helpers">
+      <script>scripts\apply_friction.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Player">

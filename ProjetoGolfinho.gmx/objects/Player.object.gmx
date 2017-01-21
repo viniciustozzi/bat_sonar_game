@@ -64,7 +64,7 @@ state = player_move_state;
           <argument>
             <kind>1</kind>
             <string>///Move the player
-state = player_move_state;
+script_execute(state);
 </string>
           </argument>
         </arguments>

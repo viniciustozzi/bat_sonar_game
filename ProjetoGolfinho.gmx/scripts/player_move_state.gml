@@ -12,10 +12,14 @@ if (right)
 else if (left)
     hSpeed = -mSpeed;
     
+if (up)
+    vSpeed = -mSpeed;
+else if (down)
+    vSpeed = mSpeed;
 
 //Check horizontal collision
-if (place_meeting(x + hSpeed, y, collision_obj)){
-    while(!place_meeting(x+sign(hSpeed), y, collision_obj)){
+if (place_meeting(x + hSpeed, y, col_obj)){
+    while(!place_meeting(x+sign(hSpeed), y, col_obj)){
         x += sign(hSpeed);
     }
     hSpeed = 0;
@@ -23,8 +27,8 @@ if (place_meeting(x + hSpeed, y, collision_obj)){
 x += hSpeed;
 
 //Check vertical collision
-if (place_meeting(x, y + vSpeed, collision_obj)){
-    while(!place_meeting(x, y + sign(vSpeed), collision_obj)){
+if (place_meeting(x, y + vSpeed, col_obj)){
+    while(!place_meeting(x, y + sign(vSpeed), col_obj)){
         y += sign(vSpeed);
     }
     vSpeed = 0;
