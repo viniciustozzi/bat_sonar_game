@@ -30,7 +30,9 @@
     <sprite>sprites\spr_estalactite</sprite>
     <sprite>sprites\spr_winLevel</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Player">
@@ -63,6 +65,7 @@
     <object>objects\InimigoVertical</object>
     <object>objects\InimigoHorizontal</object>
     <object>objects\WinLevel</object>
+    <object>objects\BackgroundObj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
