@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="Player" x="108" y="144" name="inst_56AD93BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="PlayerStats" x="176" y="95" name="inst_9FFBD267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Light" x="561" y="360" name="inst_1A5A8E2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MusgoBaixo" x="50" y="0" name="inst_472653DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MusgoBaixo" x="100" y="0" name="inst_85BF6CCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2094,6 +2093,8 @@
     <instance objName="MusgoDireitoBaixo" x="950" y="550" name="inst_B8E49C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MusgoDireitoBaixo" x="1750" y="500" name="inst_383C1C21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MusgoEsquerdoBaixo" x="1450" y="500" name="inst_7D27B929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TimeController" x="1100" y="100" name="inst_7AD384B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PlayerStats" x="200" y="100" name="inst_AF8D4A0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -85,6 +85,26 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>408</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>Timer&gt;=0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>301</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -107,6 +127,34 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>421</id>
+        <kind>3</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
     </event>
     <event eventtype="8" enumb="64">
       <action>
@@ -125,27 +173,48 @@
         <arguments>
           <argument>
             <kind>13</kind>
-            <string>10485760</string>
+            <string>16777215</string>
           </argument>
         </arguments>
       </action>
       <action>
         <libid>1</libid>
-        <id>514</id>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_text_transformed(x+16, y-12, Timer, 2, 2, 0);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>501</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_draw_text</functionname>
+        <functionname>action_draw_sprite</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>2</kind>
-            <string>"Time"+string(Timer)</string>
+            <kind>5</kind>
+            <sprite>spr_ampulheta</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -154,6 +223,10 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-1</string>
           </argument>
         </arguments>
       </action>

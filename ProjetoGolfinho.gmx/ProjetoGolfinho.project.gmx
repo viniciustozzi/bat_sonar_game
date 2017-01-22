@@ -32,6 +32,7 @@
     <sprite>sprites\spr_buttonMenu</sprite>
     <sprite>sprites\spr_player_anim</sprite>
     <sprite>sprites\spr_player_mask</sprite>
+    <sprite>sprites\spr_ampulheta</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -74,8 +75,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
     <room>rooms\rm_level1</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_level2</room>
   </rooms>
   <help>
