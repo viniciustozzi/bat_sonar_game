@@ -12,6 +12,7 @@
     <sound>sound\sound4_Mystic_Force</sound>
     <sound>sound\sound5_sonar</sound>
     <sound>sound\pickup</sound>
+    <sound>sound\vitoria</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -29,11 +30,17 @@
     <sprite>sprites\spr_bloco_cima</sprite>
     <sprite>sprites\spr_estalactite</sprite>
     <sprite>sprites\spr_winLevel</sprite>
-    <sprite>sprites\spr_buttonMenu</sprite>
     <sprite>sprites\spr_player_anim</sprite>
     <sprite>sprites\spr_player_mask</sprite>
     <sprite>sprites\spr_ampulheta</sprite>
     <sprite>sprites\sonar_wave</sprite>
+    <sprite>sprites\play_button</sprite>
+    <sprite>sprites\spr_exit</sprite>
+    <sprite>sprites\blue_fireworks</sprite>
+    <sprite>sprites\green_fireworks</sprite>
+    <sprite>sprites\pink_fireworks</sprite>
+    <sprite>sprites\red_fireworks</sprite>
+    <sprite>sprites\yellow_fireworks</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -69,18 +76,28 @@
     <object>objects\Estalactite</object>
     <object>objects\InimigoVertical</object>
     <object>objects\InimigoHorizontal</object>
-    <object>objects\GoLevel2</object>
+    <object>objects\GoToEnd</object>
     <object>objects\BackgroundObj</object>
     <objects name="Menu">
       <object>objects\PlayButton</object>
       <object>objects\ExitButton</object>
     </objects>
     <object>objects\SonarWave</object>
+    <object>objects\BatEndGame</object>
+    <object>objects\RestartGame</object>
+    <objects name="Fireworks">
+      <object>objects\BlueFireworks</object>
+      <object>objects\GreenFireworks</object>
+      <object>objects\PinkFireworks</object>
+      <object>objects\RedFireworks</object>
+      <object>objects\YellowFireworks</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level1</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level1</room>
     <room>rooms\rm_level2</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

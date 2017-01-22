@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -35,7 +35,7 @@ global.score = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="7" enumb="5">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -52,10 +52,8 @@ global.score = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(score&gt;=21)
-{
- Gabe.visible = true;
-}
+            <string>///Stop music
+audio_stop_sound(sound4_Mystic_Force);
 </string>
           </argument>
         </arguments>
