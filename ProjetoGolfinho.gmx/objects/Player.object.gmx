@@ -167,6 +167,7 @@ else
     
         if (sizeLight &gt;= final)
         {
+            SonarWave.visible = false;
             isReverseSonar = true;
         }
     
@@ -224,6 +225,7 @@ if (keyboard_check(vk_space) &amp;&amp; !sonarActive &amp;&amp; canUseSonar == 1
     sonarActive = true;
     sizeLight = customSizeLight;
     audio_play_sound(sound5_sonar, 5, false);
+    SonarWave.visible = true;
 }
 </string>
           </argument>

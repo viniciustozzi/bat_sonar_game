@@ -33,6 +33,7 @@
     <sprite>sprites\spr_player_anim</sprite>
     <sprite>sprites\spr_player_mask</sprite>
     <sprite>sprites\spr_ampulheta</sprite>
+    <sprite>sprites\sonar_wave</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -74,6 +75,7 @@
       <object>objects\PlayButton</object>
       <object>objects\ExitButton</object>
     </objects>
+    <object>objects\SonarWave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>

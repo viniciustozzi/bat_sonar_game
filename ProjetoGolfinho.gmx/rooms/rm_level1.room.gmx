@@ -3,8 +3,8 @@
   <caption></caption>
   <width>2800</width>
   <height>1800</height>
-  <vsnap>50</vsnap>
-  <hsnap>50</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -2095,6 +2095,7 @@
     <instance objName="MusgoEsquerdoBaixo" x="1450" y="500" name="inst_7D27B929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="TimeController" x="1100" y="100" name="inst_7AD384B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="PlayerStats" x="200" y="100" name="inst_AF8D4A0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SonarWave" x="114" y="152" name="inst_E34BE100" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
