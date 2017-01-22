@@ -22,6 +22,10 @@ if (!right && !left)
 if (!up && !down)
     vSpeed = 0;
 
+if (hSpeed != 0){
+    image_xscale = sign(hSpeed);
+}
+
 //Check horizontal collision
 if (place_meeting(x + hSpeed, y, Solid)){
     while(!place_meeting(x+sign(hSpeed), y, Solid)){

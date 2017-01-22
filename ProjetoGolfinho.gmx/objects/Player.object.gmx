@@ -42,8 +42,14 @@ hSpeed = 0;
 //Cooldown do sonar
 sonarCooldown = 1;
 
+//Tamanho da luz
+sizeLight = 230;
+
 //Sonar começa desativado
 sonarActive = false;
+
+//Se o sonar está voltando ao tamanho original
+isReverseSonar = false;
 
 //Inicializa  o jogador do 
 state = player_move_state;
@@ -70,23 +76,49 @@ state = player_move_state;
           <argument>
             <kind>1</kind>
             <string>///Activate the sonar
-if (keyboard_check(vk_space))
-    sonarActive = true;
-
-
-if (!sonarActive)
-    size = 230;
-else
+if (keyboard_check(vk_space) &amp;&amp; !sonarActive)
 {
-    
+    sonarActive = true;
+    sizeLight = 230;
 }
 
-//Show the light arround the bat
-draw_set_blend_mode(bm_subtract);
-surface_set_target(light);
-draw_ellipse_color(x-size/2-view_xview, y-size/2-view_yview, x+size/2-view_xview, y+size/2-view_yview, c_white, c_black, false);
-surface_reset_target();
-draw_set_blend_mode(bm_normal);
+if (!sonarActive)
+{
+    sizeLight = 230;
+
+    apply_light(light, sizeLight);
+}
+else
+{
+    if (!isReverseSonar)
+    {
+        var final = 1500;
+        var inc = 2;
+        sizeLight += inc * room_speed;
+    
+        if (sizeLight &gt;= final)
+        {
+            isReverseSonar = true;
+        }
+    
+        apply_light(light, sizeLight);
+    }
+    else
+    {
+        var final = 230;
+        var inc = 2;
+        sizeLight -= inc * room_speed;
+        
+        if (sizeLight &lt;= final)
+        {
+            sizeLight = 230;
+            sonarActive = false;
+            isReverseSonar = false;
+        }
+        
+        apply_light(light, sizeLight);
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -109,11 +141,18 @@ draw_set_blend_mode(bm_normal);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-///Move the player
+            <string>///Detect input
+
+//Move the player
 script_execute(state);
 
-
+///Activate the sonar
+if (keyboard_check(vk_space) &amp;&amp; !sonarActive)
+{
+    show_debug_message("Apertou espaço");
+    sonarActive = true;
+    sizeLight = 230;
+}
 </string>
           </argument>
         </arguments>

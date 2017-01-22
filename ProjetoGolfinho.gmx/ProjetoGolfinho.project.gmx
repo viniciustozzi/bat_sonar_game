@@ -9,8 +9,14 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_colecionavel</sprite>
     <sprite>sprites\floor_solid</sprite>
-    <sprite>sprites\spr_inimigo</sprite>
-    <sprite>sprites\spr_inimigo2</sprite>
+    <sprite>sprites\spr_musgo_direito</sprite>
+    <sprite>sprites\spr_bloco_direit_baixo</sprite>
+    <sprite>sprites\spr_bloco_esquerd_baixo</sprite>
+    <sprite>sprites\spr_bloco_esquerdo_cima</sprite>
+    <sprite>sprites\spr_bloco_baixo</sprite>
+    <sprite>sprites\spr_bloco_esquerdo</sprite>
+    <sprite>sprites\spr_bloco_direito_cima</sprite>
+    <sprite>sprites\spr_bloco_cima</sprite>
     <sprite>sprites\spr_estalactite</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -21,6 +27,7 @@
     </scripts>
     <scripts name="Helpers">
       <script>scripts\apply_friction.gml</script>
+      <script>scripts\apply_light.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -28,11 +35,18 @@
       <object>objects\PlayerStats</object>
       <object>objects\Player</object>
     </objects>
+    <object>objects\MusgoDireito</object>
     <object>objects\Solid</object>
     <object>objects\Colecionavel</object>
     <object>objects\TimeController</object>
-    <object>objects\InimigoHorizontal</object>
-    <object>objects\InimigoVertical</object>
+    <object>objects\Light</object>
+    <object>objects\MusgoDireitoBaixo</object>
+    <object>objects\MusgoEsquerdoBaixo</object>
+    <object>objects\MusgoEsquerdoCima</object>
+    <object>objects\MusgoBaixo</object>
+    <object>objects\MusgoEsquerdo</object>
+    <object>objects\DireitoCima</object>
+    <object>objects\MusgoCima</object>
     <object>objects\Estalactite</object>
   </objects>
   <rooms name="rooms">
