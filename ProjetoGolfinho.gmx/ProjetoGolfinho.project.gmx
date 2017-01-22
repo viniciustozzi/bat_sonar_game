@@ -29,6 +29,9 @@
     <sprite>sprites\spr_bloco_cima</sprite>
     <sprite>sprites\spr_estalactite</sprite>
     <sprite>sprites\spr_winLevel</sprite>
+    <sprite>sprites\spr_buttonMenu</sprite>
+    <sprite>sprites\spr_player_anim</sprite>
+    <sprite>sprites\spr_player_mask</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -42,7 +45,6 @@
       <script>scripts\apply_friction.gml</script>
       <script>scripts\apply_light.gml</script>
     </scripts>
-    <script>scripts\win_level.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Player">
@@ -64,10 +66,15 @@
     <object>objects\Estalactite</object>
     <object>objects\InimigoVertical</object>
     <object>objects\InimigoHorizontal</object>
-    <object>objects\WinLevel</object>
+    <object>objects\GoLevel2</object>
     <object>objects\BackgroundObj</object>
+    <objects name="Menu">
+      <object>objects\PlayButton</object>
+      <object>objects\ExitButton</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_level1</room>
     <room>rooms\rm_level2</room>
   </rooms>
