@@ -4,7 +4,15 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0_Ossuary_5___Rest</sound>
+    <sound>sound\sound1_Zreen_Toyz___05___Beyond_The_Deepest_Crypt</sound>
+    <sound>sound\sound2_Darkening_Developments</sound>
+    <sound>sound\sound3_experiMENTALien___01___Inexplicable_Ambience</sound>
+    <sound>sound\sound4_Mystic_Force</sound>
+    <sound>sound\sound5_sonar</sound>
+    <sound>sound\pickup</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_colecionavel</sprite>
@@ -20,6 +28,7 @@
     <sprite>sprites\spr_bloco_direito_cima</sprite>
     <sprite>sprites\spr_bloco_cima</sprite>
     <sprite>sprites\spr_estalactite</sprite>
+    <sprite>sprites\spr_winLevel</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,6 +40,7 @@
       <script>scripts\apply_friction.gml</script>
       <script>scripts\apply_light.gml</script>
     </scripts>
+    <script>scripts\win_level.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Player">
@@ -52,6 +62,7 @@
     <object>objects\Estalactite</object>
     <object>objects\InimigoVertical</object>
     <object>objects\InimigoHorizontal</object>
+    <object>objects\WinLevel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>

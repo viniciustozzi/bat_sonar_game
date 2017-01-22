@@ -149,9 +149,9 @@ script_execute(state);
 ///Activate the sonar
 if (keyboard_check(vk_space) &amp;&amp; !sonarActive)
 {
-    show_debug_message("Apertou espaço");
     sonarActive = true;
     sizeLight = 230;
+    audio_play_sound(sound5_sonar, 5, false);
 }
 </string>
           </argument>
