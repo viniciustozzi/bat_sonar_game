@@ -135,6 +135,19 @@
     <instance objName="Estalactite" x="150" y="100" name="inst_AE104013" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Estalactite" x="350" y="100" name="inst_0AEB47AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Estalactite" x="500" y="100" name="inst_717CE250" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InimigoVertical" x="100" y="450" name="inst_EACC6020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InimigoHorizontal" x="150" y="200" name="inst_B82A8B81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="550" name="inst_F26E982A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="350" y="450" name="inst_665C8A61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="500" name="inst_99F7E61E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="450" name="inst_D9D46A95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="400" name="inst_59E07A5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="350" name="inst_6206743E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="300" name="inst_3E3A8D18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="200" name="inst_E9743F71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="100" name="inst_99D6E0BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="150" name="inst_1DDB61F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MusgoDireito" x="400" y="250" name="inst_BED0215E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
