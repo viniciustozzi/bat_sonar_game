@@ -36,6 +36,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\menu_background</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

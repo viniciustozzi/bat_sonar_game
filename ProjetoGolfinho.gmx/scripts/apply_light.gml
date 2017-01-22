@@ -2,7 +2,7 @@
 var light = argument0;
 var size = argument1
 
-var valorGambiarra = 35;
+var valorGambiarra = 0;
 
 draw_set_blend_mode(bm_subtract);
 surface_set_target(light);
